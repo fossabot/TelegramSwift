@@ -483,6 +483,7 @@
 		27FE779C26F4AE4400E1C90B /* SmartThemePreviewRowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FE779B26F4AE4400E1C90B /* SmartThemePreviewRowItem.swift */; };
 		27FFCEC52694BA58006CA024 /* WidgetAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FFCEC42694BA58006CA024 /* WidgetAppearance.swift */; };
 		27FFCEC72694BC95006CA024 /* WidgetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FFCEC62694BC95006CA024 /* WidgetController.swift */; };
+		9B9AC7E596A5A52EE62FFADD /* Pods_Telegram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 804311C28E0F656657BB19DB /* Pods_Telegram.framework */; };
 		9F0367F0227208E000456348 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0367EF227208E000456348 /* QRCode.swift */; };
 		9F0367F22272108800456348 /* ProxyQRCodeRowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0367F12272108800456348 /* ProxyQRCodeRowItem.swift */; };
 		9F0368012277091800456348 /* LAnimationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0368002277091800456348 /* LAnimationButton.swift */; };
@@ -1211,6 +1212,7 @@
 		D0FCA7622434867400B72F18 /* PeerInfoHeadItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FCA7612434867400B72F18 /* PeerInfoHeadItem.swift */; };
 		D0FFC4AC23E184BA0044D305 /* ChatListFilterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FFC4AB23E184BA0044D305 /* ChatListFilterController.swift */; };
 		D0FFCEBE215A7CB700995AFE /* emoji14.txt in Resources */ = {isa = PBXBuildFile; fileRef = D0FFCEBD215A7CB700995AFE /* emoji14.txt */; };
+		EE194116B8AFC084C80ED626 /* Pods_TelegramShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9AD2ED744EE1E8610BE640E /* Pods_TelegramShare.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1279,6 +1281,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0297CE391FA277B58FBDE828 /* Pods-Telegram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telegram.debug.xcconfig"; path = "Target Support Files/Pods-Telegram/Pods-Telegram.debug.xcconfig"; sourceTree = "<group>"; };
+		207F83D8D2E85E7466AF2A8E /* Pods-TelegramShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelegramShare.debug.xcconfig"; path = "Target Support Files/Pods-TelegramShare/Pods-TelegramShare.debug.xcconfig"; sourceTree = "<group>"; };
 		2700B21F273ADC08003E4018 /* HotKey */ = {isa = PBXFileReference; lastKnownFileType = folder; name = HotKey; path = packages/HotKey; sourceTree = "<group>"; };
 		270202BE261A1BF500CFCE6D /* PaymentsTipsRowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsTipsRowItem.swift; sourceTree = "<group>"; };
 		270202C2261B3D3100CFCE6D /* CurrencyUITextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyUITextFieldDelegate.swift; sourceTree = "<group>"; };
@@ -1718,6 +1722,8 @@
 		27FE779B26F4AE4400E1C90B /* SmartThemePreviewRowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartThemePreviewRowItem.swift; sourceTree = "<group>"; };
 		27FFCEC42694BA58006CA024 /* WidgetAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetAppearance.swift; sourceTree = "<group>"; };
 		27FFCEC62694BC95006CA024 /* WidgetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetController.swift; sourceTree = "<group>"; };
+		4F79E4C74E3F4FA45D7DBAE7 /* Pods-TelegramShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelegramShare.release.xcconfig"; path = "Target Support Files/Pods-TelegramShare/Pods-TelegramShare.release.xcconfig"; sourceTree = "<group>"; };
+		804311C28E0F656657BB19DB /* Pods_Telegram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Telegram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F0367EF227208E000456348 /* QRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
 		9F0367F12272108800456348 /* ProxyQRCodeRowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyQRCodeRowItem.swift; sourceTree = "<group>"; };
 		9F0368002277091800456348 /* LAnimationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LAnimationButton.swift; sourceTree = "<group>"; };
@@ -1919,6 +1925,7 @@
 		A7F283092395570400742C20 /* SearchSettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSettingsController.swift; sourceTree = "<group>"; };
 		A7F2831A239A496400742C20 /* ContextShowPeersHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextShowPeersHolder.swift; sourceTree = "<group>"; };
 		A7F28336239A808500742C20 /* TemplateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateController.swift; sourceTree = "<group>"; };
+		B9AD2ED744EE1E8610BE640E /* Pods_TelegramShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TelegramShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2016F3A1EAA4538003AF981 /* RecentPeerRowItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentPeerRowItem.swift; sourceTree = "<group>"; };
 		C2016F431EAA4967003AF981 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/ShareViewController.strings"; sourceTree = "<group>"; };
 		C2016F451EAA4967003AF981 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -2473,6 +2480,7 @@
 		D0FCA7612434867400B72F18 /* PeerInfoHeadItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerInfoHeadItem.swift; sourceTree = "<group>"; };
 		D0FFC4AB23E184BA0044D305 /* ChatListFilterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListFilterController.swift; sourceTree = "<group>"; };
 		D0FFCEBD215A7CB700995AFE /* emoji14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = emoji14.txt; sourceTree = "<group>"; };
+		F5BF1FCFEE4FAA3C549F78A4 /* Pods-Telegram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telegram.release.xcconfig"; path = "Target Support Files/Pods-Telegram/Pods-Telegram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2508,6 +2516,7 @@
 				27F3B75C2739320000B81F10 /* SwiftSignalKit in Frameworks */,
 				27B6D0492739388600C785C7 /* TelegramApi in Frameworks */,
 				27B6D04D2739388C00C785C7 /* Postbox in Frameworks */,
+				EE194116B8AFC084C80ED626 /* Pods_TelegramShare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2619,6 +2628,7 @@
 				2796FEF227423A8600DA653C /* EmojiSuggestions in Frameworks */,
 				27D696FA274F8462008A723E /* InAppSettings in Frameworks */,
 				2796FF042742462400DA653C /* Svg in Frameworks */,
+				9B9AC7E596A5A52EE62FFADD /* Pods_Telegram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3445,6 +3455,18 @@
 			name = "settings-search";
 			sourceTree = "<group>";
 		};
+		BDA31BFE004478FB93B76C04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0297CE391FA277B58FBDE828 /* Pods-Telegram.debug.xcconfig */,
+				F5BF1FCFEE4FAA3C549F78A4 /* Pods-Telegram.release.xcconfig */,
+				207F83D8D2E85E7466AF2A8E /* Pods-TelegramShare.debug.xcconfig */,
+				4F79E4C74E3F4FA45D7DBAE7 /* Pods-TelegramShare.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C2016F661EAE0A49003AF981 /* calls */ = {
 			isa = PBXGroup;
 			children = (
@@ -4261,6 +4283,8 @@
 		};
 		C251FB511FEE300E0035E5D7 /* Products */ = {
 			isa = PBXGroup;
+			children = (
+			);
 			name = Products;
 			sourceTree = "<group>";
 		};
@@ -4787,6 +4811,8 @@
 		};
 		C2D70AF21F2BFB3700AE768E /* Products */ = {
 			isa = PBXGroup;
+			children = (
+			);
 			name = Products;
 			sourceTree = "<group>";
 		};
@@ -5160,6 +5186,7 @@
 				C232EA921E1D07E700C4D38C /* TelegramShare */,
 				D098C7161D7E175A007784E4 /* Products */,
 				D098C7311D7E18CB007784E4 /* Frameworks */,
+				BDA31BFE004478FB93B76C04 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -5261,6 +5288,8 @@
 				C250B0341DB78A0A004E9FBE /* Quartz.framework */,
 				C250B0321DB788B3004E9FBE /* Foundation.framework */,
 				C253A9661D92E3AE00CDC850 /* AVFoundation.framework */,
+				804311C28E0F656657BB19DB /* Pods_Telegram.framework */,
+				B9AD2ED744EE1E8610BE640E /* Pods_TelegramShare.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -5344,6 +5373,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C232EAA01E1D07E700C4D38C /* Build configuration list for PBXNativeTarget "TelegramShare" */;
 			buildPhases = (
+				6EF449C3BF13A84D81B8170E /* [CP] Check Pods Manifest.lock */,
 				C232EA8D1E1D07E700C4D38C /* Sources */,
 				C232EA8E1E1D07E700C4D38C /* Frameworks */,
 				C232EA8F1E1D07E700C4D38C /* Resources */,
@@ -5387,6 +5417,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D098C7221D7E175A007784E4 /* Build configuration list for PBXNativeTarget "Telegram" */;
 			buildPhases = (
+				C7319E3790695A37DEE7A3A5 /* [CP] Check Pods Manifest.lock */,
 				C20D5AB61DAA94500042616A /* Copy Files */,
 				D098C7121D7E175A007784E4 /* Frameworks */,
 				D098C7111D7E175A007784E4 /* Sources */,
@@ -5855,6 +5886,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		6EF449C3BF13A84D81B8170E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TelegramShare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9F193BD82130B968001C0800 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -5866,8 +5919,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "
-";
+			shellScript = "\n";
 		};
 		C2D85FD51F25FE5400EDEA15 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -5881,6 +5933,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "sh ${PROJECT_DIR}/tools/bump_build_number.sh \"${PROJECT_DIR}/${INFOPLIST_FILE}\"\nsh ${PROJECT_DIR}/tools/sync_share_version.sh \"${PROJECT_DIR}/${INFOPLIST_FILE}\" \"${PROJECT_DIR}/TelegramShare/Info.plist\"\n";
+		};
+		C7319E3790695A37DEE7A3A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Telegram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 		D0BEBD0C256147EE0048FBE0 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -5897,8 +5971,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "
-";
+			shellScript = "\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

@@ -11,3 +11,6 @@ core-xprojects/ffmpeg/build
 core-xprojects/webrtc/build
 core-xprojects/libvpx/build
 core-xprojects/webrtc/build-debug
+Pods
+Podfile.lock
+Telegram.xcworkspace
