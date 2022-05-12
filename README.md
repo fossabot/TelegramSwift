@@ -10,6 +10,7 @@
 ## Get it
 
 [![Download on the Mac App Store](images/mas_badge.png)](https://itunes.apple.com/us/app/telegram/id747648890?mt=12)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FCharlotteFallices%2FTelegramSwift.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FCharlotteFallices%2FTelegramSwift?ref=badge_shield)
 
 
 ### Using Homebrew
@@ -60,6 +61,9 @@ With [Shortcuts](https://github.com/overtake/TelegramSwift/wiki) you can learn h
 
 ## License
 Telegram for macOS is licensed under the GNU Public License, version 2.0. See [LICENSE](LICENSE) for more information.
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FCharlotteFallices%2FTelegramSwift.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FCharlotteFallices%2FTelegramSwift?ref=badge_large)
 
 ## Forking
 You can fork this application and make something awesome! Make sure that your fork follows these five requirements:
